@@ -48,19 +48,19 @@ public class Pessoa {
             else if (imc<26.4F) // usamos else if pois o valor da condicao anterior estara englobado nesse
                 return "no peso normal";
             else if (imc<27.8F)
-                return "marinalmente acima do peso ideal";
+                return "marginalmente acima do peso ideal";
             else if (imc<31.1)
                 return "acima do peso ideal";
             else
                 return "obeso";
         }
-        if(this.getSexo().equals("Masculino")){
+        else{
             if(imc<19.1F)
                 return "abaixo do peso";
             else if (imc<25.8F)
                 return "no peso normal";
             else if (imc<27.3F)
-                return "marinalmente acima do peso ideal";
+                return "marginalmente acima do peso ideal";
             else if (imc<32.3F)
                 return "acima do peso ideal";
             else
